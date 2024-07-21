@@ -1,0 +1,36 @@
+.box-custom {
+  padding: 0 20px 20px;
+}
+
+.box-custom h2 {
+  margin-top: 0;
+}
+
+.loading-data {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: none;
+}
+
+.loading-data.show {
+  display: block;
+}
+
+.loading-data .icon-loading {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  height: 90px;
+  width: 90px;
+}
+/* 
+#get_session_id {
+  border-right: 1px solid #DCDFE6;
+  border-radius: 0;
+} */

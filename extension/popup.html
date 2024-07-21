@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Get Facebook Video URL</title>
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/popup.css">
+  <link rel="stylesheet" href="./css/custom.css">
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <div id="custom" class="box-custom">
+    <h2>
+      Get IMEI & Cookies Zalo
+    </h2>
+
+    <div style="margin-bottom: 10px;">
+      IMEI
+      <div id="imei-div" class="el-input is-disabled el-input-group el-input-group--append ">
+        <input id="imei-input" type="text" disabled="disabled" autocomplete="off" class="el-input__inner">
+        <div class="el-input-group__append">
+          <button id="btn-copy-1" type="button" class="el-button el-button--default">
+            <i class="el-icon-document-copy"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div style="margin-bottom: 10px;">
+      Cookies
+      <div id="cookies-div" class="el-input is-disabled el-input-group el-input-group--append ">
+        <input id="cookies-input" type="text" disabled="disabled" autocomplete="off" class="el-input__inner">
+        <div class="el-input-group__append">
+          <button id="btn-copy-2" type="button" class="el-button el-button--default">
+            <i class="el-icon-document-copy"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <div style="text-align:center;">
+      <button type="button" id="refresh-button" class="el-button el-button--primary">
+        Refresh Page
+      </button>
+    </div>
+  </div>
+
+  <div id="loading_data" class="loading-data">
+    <i class="icon-loading fa fa-spinner fa-spin fa-3x fa-fw"></i>
+  </div>
+  <script src="./js/custom.js"></script>
+  <script src="./js/popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  background-color: #fafafa;
+  color: #262626;
+  /* 
+	min-height: 780px;
+	min-width: 767px; */
+}
+
+pre {
+  font-family: Consolas, monospace;
+  color: #000;
+  background: #fff;
+  border-radius: 2px;
+  padding: 15px;
+  line-height: 1.5;
+  overflow: auto;
+}
+
+a,
+button {
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.app-box {
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.el-avatar {
+  vertical-align: middle;
+}
+
+.el-form--label-top .el-form-item__label {
+  padding: 0;
+}
+
+.el-table .cell {
+  word-break: unset;
+}
+
+.el-form-item {
+  margin-bottom: 10px;
+}
+
+.el-form-item__content {
+  line-height: normal;
+}
+
+.el-select {
+  width: 100%;
+}
+
+.box-action {
+  text-align: right;
+}
+
+.w100 {
+  width: 100%;
+}
+.w80 {
+  width: 80%;
+}
+.relative {
+  position: relative;
+}
+
+.bg-infor {
+  background: #909399;
+}
+
+.bg-danger {
+  background: #f56c6c;
+}
+.bg-warning {
+  background: #e6a23c;
+}
+.bg-success {
+  background: #67c23a;
+}
+
+.el-card {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
